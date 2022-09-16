@@ -34,7 +34,7 @@ public class TestCase1 {
 		driver.navigate().to("https://tessa.equine.co.id/");
 		//Thread.sleep(10000);
 		String ActualTitle = driver.getTitle();
-		String ExpectedTitle = "Welcome to New TESSA-Dwiki";
+		String ExpectedTitle = "Welcome to New TESSA-GIT";
 		 Assert.assertEquals(ActualTitle, ExpectedTitle);
 		//softAssert.assertEquals(ActualTitle, ExpectedTitle);
 		System.out.println("TC 1 is executed");
